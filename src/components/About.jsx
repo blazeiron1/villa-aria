@@ -111,7 +111,7 @@ export default function About() {
               className="relative rounded-2xl overflow-hidden aspect-[4/5] shadow-2xl"
             >
               <img
-                src="/aria/about.jpg"
+                src="./aria/about.jpg"
                 alt="Villa Aria — warm Macedonian hospitality"
                 className="w-full h-full object-cover transition-transform duration-700"
               />

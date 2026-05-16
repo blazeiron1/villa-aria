@@ -9,8 +9,8 @@ const roomsData = [
     id: 1,
     size: '25 m²',
     price: '€120',
-    image: '/aria/104.jpg',
-    images: ['/aria/104.jpg', '/aria/104-1.jpg', '/aria/104-2.jpg', '/aria/104-3.jpg', '/aria/104-5.jpg', '/aria/104-6.jpg', '/aria/104-7.jpg'],
+    image: './aria/104.jpg',
+    images: ['./aria/104.jpg', './aria/104-1.jpg', './aria/104-2.jpg', './aria/104-3.jpg', './aria/104-5.jpg', './aria/104-6.jpg', './aria/104-7.jpg'],
     amenities: [
       { icon: 'Ruler', label: '25 m²' },
       { icon: 'Flower2', label: 'Balcony' },
@@ -24,15 +24,15 @@ const roomsData = [
   {
     id: 2,
     price: '€140',
-    image: '/aria/101.jpg',
-    images: ['/aria/101.jpg', '/aria/101-1.jpg', '/aria/101-2.jpg', '/aria/101-3.jpg', '/aria/101-4.jpg', '/aria/101-5.jpg', '/aria/101-6.jpg'],
+    image: './aria/101.jpg',
+    images: ['./aria/101.jpg', './aria/101-1.jpg', './aria/101-2.jpg', './aria/101-3.jpg', './aria/101-4.jpg', './aria/101-5.jpg', './aria/101-6.jpg'],
   },
   {
     id: 3,
     size: '25 m²',
     price: '€165',
-    image: '/aria/103.jpg',
-    images: ['/aria/103.jpg', '/aria/103-1.jpg', '/aria/103-2.jpg', '/aria/103-3.jpg', '/aria/103-4.jpg', '/aria/103-5.jpg', '/aria/103-6.jpg', '/aria/103-7.jpg'],
+    image: './aria/103.jpg',
+    images: ['./aria/103.jpg', './aria/103-1.jpg', './aria/103-2.jpg', './aria/103-3.jpg', './aria/103-4.jpg', './aria/103-5.jpg', './aria/103-6.jpg', './aria/103-7.jpg'],
     amenities: [
       { icon: 'Ruler', label: '25 m²' },
       { icon: 'Flower2', label: 'Balcony' },
@@ -47,8 +47,8 @@ const roomsData = [
     id: 4,
     size: '25 m²',
     price: '€185',
-    image: '/aria/102.jpg',
-    images: ['/aria/102.jpg', '/aria/102-1.jpg', '/aria/102-3.jpg', '/aria/102-4.jpg', '/aria/102-5.jpg', '/aria/102-6.jpg', '/aria/102-7.jpg'],
+    image: './aria/102.jpg',
+    images: ['./aria/102.jpg', './aria/102-1.jpg', './aria/102-3.jpg', './aria/102-4.jpg', './aria/102-5.jpg', './aria/102-6.jpg', './aria/102-7.jpg'],
     amenities: [
       { icon: 'Ruler', label: '25 m²' },
       { icon: 'Flower2', label: 'Balcony' },

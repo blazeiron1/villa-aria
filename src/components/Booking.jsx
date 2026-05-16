@@ -16,7 +16,7 @@ export default function Booking() {
 
   return (
     <section id="booking" className="relative py-28 lg:py-36 overflow-hidden">
-      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(/aria/contact.jpg)' }} />
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(./aria/contact.jpg)' }} />
       <div className="absolute inset-0 bg-deep-espresso/80" />
 
       <div className="relative z-10 max-w-3xl mx-auto px-6 lg:px-10">

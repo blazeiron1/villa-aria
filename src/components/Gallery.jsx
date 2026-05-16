@@ -5,13 +5,13 @@ import GalleryLightbox from './GalleryLightbox'
 import { useLanguage } from '../context/LanguageContext'
 
 const images = [
-  { src: '/aria/g-14.jpg',  alt: 'Villa Aria', span: 'md:row-span-2' },
-  { src: '/aria/g-3.jpg',   alt: 'Villa Aria', span: '' },
-  { src: '/aria/g-17.jpg',  alt: 'Villa Aria', span: '' },
-  { src: '/aria/g-8.jpg',   alt: 'Villa Aria', span: 'md:col-span-2' },
-  { src: '/aria/g-11.jpg',  alt: 'Villa Aria', span: '' },
-  { src: '/aria/g-5.jpg',   alt: 'Villa Aria', span: '' },
-  { src: '/aria/g-18.jpg',  alt: 'Villa Aria', span: '' },
+  { src: './aria/g-14.jpg',  alt: 'Villa Aria', span: 'md:row-span-2' },
+  { src: './aria/g-3.jpg',   alt: 'Villa Aria', span: '' },
+  { src: './aria/g-17.jpg',  alt: 'Villa Aria', span: '' },
+  { src: './aria/g-8.jpg',   alt: 'Villa Aria', span: 'md:col-span-2' },
+  { src: './aria/g-11.jpg',  alt: 'Villa Aria', span: '' },
+  { src: './aria/g-5.jpg',   alt: 'Villa Aria', span: '' },
+  { src: './aria/g-18.jpg',  alt: 'Villa Aria', span: '' },
 ]
 
 export default function Gallery() {

@@ -17,7 +17,7 @@ export default function Hero() {
     >
       {/* Parallax Background */}
       <motion.div
-        style={{ backgroundImage: 'url(/aria/home.jpg)', y: bgY }}
+        style={{ backgroundImage: 'url(./aria/home.jpg)', y: bgY }}
         className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-110"
       />
 
