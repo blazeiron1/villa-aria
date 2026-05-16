@@ -5,7 +5,7 @@ import { useLanguage } from '../context/LanguageContext'
 function useCounter(target, duration = 1800) {
   const [count, setCount] = useState(0)
   const ref = useRef(null)
-  const inView = useInView(ref, { once: true, margin: '-80px' })
+  const inView = useInView(ref, { once: true, margin: '0px' })
 
   useEffect(() => {
     if (!inView) return
